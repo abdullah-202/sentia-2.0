@@ -13125,7 +13125,7 @@ function Um() {
       (d[8] = W),
       (d[9] = hl))
     : ((W = d[8]), (hl = d[9]));
-  const Ml = `lg:hidden absolute right-0 top-18 w-full bg-white flex flex-col items-center gap-10  rounded-b-lg ${_ ? "py-6" : ""}`;
+  const Ml = `lg:hidden absolute right-0 top-18 w-full bg-white flex flex-col items-center gap-10  rounded-b-lg ${_ ? "py-6  animate-dropIn" : ""} `;
   let gl;
   d[10] !== _
     ? ((gl =
@@ -13134,7 +13134,7 @@ function Um() {
           children: [
             p.jsxs("ul", {
               className:
-                "lg:hidden flex flex-col text-center gap-10 md:text-lg text-[18px] duration-500 ease-in",
+                "lg:hidden flex flex-col text-center gap-10 md:text-lg text-[18px]",
               children: [
                 p.jsx("li", {
                   children: p.jsx("a", { href: "#", children: "Home" }),
@@ -13199,7 +13199,7 @@ function Um() {
       ? ((kl = p.jsx(p.Fragment, {
           children: p.jsxs("div", {
             className:
-              "sticky top-0 left-0 bg-white/30 backdrop-blur-sm w-full p-2 px-10 flex justify-between items-center shadow-sm shadow-gray-700 animate-dropIn delay-150",
+              "sticky top-0 left-0 bg-white/30 backdrop-blur-sm w-full p-2 px-10 flex justify-between items-center shadow-sm shadow-gray-700 animate-dropIn delay-1500",
             children: [M, W, hl, Bl, El],
           }),
         })),
